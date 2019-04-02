@@ -1,14 +1,6 @@
 import React from 'react'
 
 export default class Filters extends React.Component {
-  constructor(props){
-    super(props)
-    this.state = {
-      value: ''
-    }
-
-  }
-
   handleChange = (e) =>{
      this.props.onChangeType(e.target.value)
   }
