@@ -30,6 +30,7 @@ describe('<App />', () => {
 
     it('should fetch all pets by default', () => {
       const wrapper = shallow(<App />);
+      // debugger;
       wrapper
         .find(Filters)
         .props()
